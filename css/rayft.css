@@ -1,0 +1,95 @@
+body{
+    margin: auto;
+    display: block;
+}
+.container{
+    padding-top: 70px;
+    min-height: 710px;
+    background: linear-gradient(323deg, #112970 108%, #25439d 34%);
+}
+#rayftlogo{
+    margin: auto;
+    display: block;
+}
+.Rectangle{
+    background-color: #183380;
+    max-width: 400px;
+    min-height: 420px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px 16px;
+    font-weight: 800;   
+}
+.Quality-research-rep{
+    color: #ffffff;
+    line-height: 1.39;
+    font-size: 28px; 
+    line-height: 1.39; 
+}
+.Log-In{
+    border-radius: 22.5px;
+    background-color: #20cdbb;
+    padding: 10px 126px;
+    font-size: 17px;
+    color: #ffffff;    
+    border: none;
+    margin-top: 20px;
+}
+.line{
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.15;
+    font-size: 12px;
+    margin-top: 41px;
+}
+.line:before,
+.line:after {
+    opacity: 1.1;
+    border: solid 1px #ffffff;
+    content: "";
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 34%;
+}
+.line:before {
+    right: 1.5em;
+    margin-left: -50%;
+  } 
+.line:after {
+    left: 1.5em;
+    margin-right: -50%;
+  }
+.text1{
+    color: #ffffff;
+    font-size: 15px;
+    opacity: 0.5;
+    line-height: 1.43;
+    font-weight: normal;
+}
+.Sign-Up{
+    border-radius: 22.5px;
+    background-color: #51a8d1;
+    padding: 10px 126px;
+    font-size: 17px;
+    color: #ffffff;    
+    border: none;
+    margin-top: 20px;
+}
+.lastline{
+    background-color: #1c2646;
+    max-width: 1170px;
+    height: 36px;
+    margin: auto;
+    padding-top: 9px;
+}
+.text2{
+    opacity: 0.7;
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 81px;
+}
