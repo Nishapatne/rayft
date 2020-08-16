@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/createAccount.css">
+</head>
+<body>
+    <main class = "page">
+        <header>
+            <div class = "container">
+                <text id = "login">Sign Up</text>
+                <img src = "../images/logo.png" id = "rayftlogo">
+            </div>
+        </header>
+        <section>
+                <div class = "container">
+                    <p id = "divheading">Create an account</p>
+                </div>
+        </section>
+        <section>
+            <div class = "container">
+                <form class = "square">
+                    <div class="row">
+                        <div class="col-md-6 cell">
+                            <label for = "first-name" id = "label1">First name</label>
+                            <input type = "text" id = "first-name" class = "login-form-field">
+                            <div class = "h-divider"></div>
+                        </div>
+                        <div class="col-md-6 cell">
+                            <label for = "last-name" id = "label1">Last name</label>
+                            <input type = "text" id = "last-name" class = "login-form-field">
+                            <div class = "h-divider"></div>
+                        </div>
+                    </div>
+                    <br> 
+                    <label for = "username-field" id = "label1">Email or Username</label>
+                    <br>
+                    <input type = "text" id = "username-field" class = "login-form-field">
+                        <div class = "h-divider"></div><br>
+                    <label for = "password-field" id = "label1">Password</label>
+                    <br>
+                    <input type = "text" id = "password-field" class = "login-form-field">
+                    <!-- <i class="fa fa-eye" aria-hidden="true"></i> -->
+                    <div class = "h-divider"></div><br>
+                    <label for = "checkbox-field" id = "label1">Whats your purpose here?</label><br>
+                        <input type="radio" checked="checked" id = "checkbox">
+                        <text class = "checkbox-label">Reading</text>
+                        <span class="checkmark"></span>
+                        <input type="radio" id = "checkbox">
+                        <text class = "checkbox-label">Writing Reports</text>
+                    
+
+                    <div class = "btn-class">
+                        <button type="button" class="btn">Next</button>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class = "container">
+                <p class = "last_line">
+                    <text id = "no_account">Already have an account?</text>
+                    <text id = "sign_up"><a>Log In</a></text>
+                </p>
+            </div>
+        </section>
+        <footer>
+            <div class = "container">
+                <text id = "footer">&#169 2018 Rayft. All rights reserved</text>
+            </div>
+        </footer>  
+    </main>
+    
+</body>
+</html>
