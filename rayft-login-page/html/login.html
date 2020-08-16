@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
-<body>
-    
-</body>
+    <body>
+        <main class = "page">
+            <header>
+                <div class = "container">
+                    <text id = "login">Log In</text>
+                    <img src = "../images/logo.png" id = "rayftlogo">
+                </div>
+            </header>
+            <section>
+                <div class = "container">
+                    <p id = "divheading">Let's get started</p>
+                </div>
+            </section>
+            <section>
+                <div class = "container">
+                    <form class = "square">
+                        <label for = "username-field" id = "label1">Email or Username</label>
+                        <br>
+                        <input type = "text" id = "username-field" class = "login-form-field">
+                            <div class = "h-divider"></div><br>
+                        <label for = "password-field" id = "label1">Password</label>
+                        <br>
+                        <input type = "text" id = "password-field" class = "login-form-field">
+                        <!-- <i class="fa fa-eye" aria-hidden="true"></i> -->
+                        <div class = "h-divider"></div>
+                        <div class = "btn-class">
+                            <button type="button" class="btn">Log In</button>
+                            <br>
+                            <p id = "frgt_pswrd">Forgot password?</p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class = "container">
+                    <p class = "last_line">
+                        <text id = "no_account">Don't have an account yet?</text>
+                        <text id = "sign_up"><a>Sign Up</a></text>
+                    </p>
+                </div>
+            </section>
+            <footer>
+                <div class = "container">
+                    <text id = "footer">&#169 2018 Rayft. All rights reserved</text>
+                </div>
+            </footer>  
+        </main>
+    </body>
 </html>
