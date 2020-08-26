@@ -1,101 +1,181 @@
 body{
-    margin: 20px;
+    margin: 2vw;
 }
 .page{
     background-color: #f7f8fa;
-    min-height:600px;
-    margin: 20px; 
+    /* min-height:600px; */
+    margin: 1vw; 
     /* overflow: auto;  */
+    font-family: Nunito Sans,Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
 header{
     background-color: #183380;
-    min-height: 44px;
-    padding: 10px;
+    /* min-height: 44px; */
+    padding: 0.6vw;
     text-align: center;
 }
 #rayftlogo{  
     float: left;    
+    padding-top: 0.2vw;
+    size: 1vw;
+    width: 5vw; 
 }
 #login{
-    font-size: 16px;
+    font-size: 1.2vw;
     color: #ffffff;
-    font-weight: bolder;
-    margin-right: 60px
+    font-weight: 500;
+    margin-right: 4vw
 }
 #divheading{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    font-weight: bolder;
-    font-size: 28px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-weight: 800;
+    font-size: 2vw;
     color: #242a41;
     text-align: center;
 }
 .square{
     background-color: #ffffff;
-    min-height: 319px;
-    max-width: 410px;
+    /* min-height: 319px; */
+    max-width: 30vw;
     margin: auto;
     border-radius: 4px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-    padding: 40px;
+    padding: 3vw;
+    position: relative;
 }
 #label1{
     opacity: 0.3;
-    font-size: 12px;
+    font-size: 1vw;
     font-weight: bold;
     color: #242a41;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 0.3vw;
 }
 .login-form-field {
     border: none;
     outline: none;
     color: #242a41;
-    /* margin-top: 5px;
-    margin-bottom: 7px; */
+    /* margin-top: 5px; */
+    margin-bottom: 0.3vw;
+    width: 100%;
+}
+.fa-eye{
+    color: #242a41;
+    opacity: 0.15;
+    position: absolute;
+    top: 15.5vw;
+    right: 3.5vw;
 }
 .h-divider{
     height: 1px;
     opacity: 0.06;
     background-color: #000000;
-    margin-bottom: 5px;
+    /* margin-bottom: 0.3vw; */
 }
-#checkbox{
-    height: 15px;
-    width: 25px;
-    margin: 0px;
+
+.checkbox-container{
+    position: relative;
 }
-.container input:checked ~ .checkbox-label {
-    color: #242a41;
-}
-.checkbox-label{
+/* The container */
+.checkbox_div{
     opacity: 0.3;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 1.3vw;
     color: #242a41;
-    text-align: left;
+    padding-left: 50px;
+    margin-top: 0.3vw;
 }
-.checkmark{
-    margin-left: 60px;
+
+/* Hide the browser's default checkbox */
+.checkbox_div input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
 }
+
+/* Create a custom checkbox */
+.checkmark1 {
+    position: absolute;
+    top: 3.6vw;
+    left: 1vw;
+    height: 1.5vw;
+    width: 1.5vw;
+    opacity: 0.3;
+    border: solid 1px #000000;
+    border-radius: 50%;
+}
+
+.checkmark2 {
+    position: absolute;
+    top: 3.6vw;
+    left: 10vw;
+    height: 1.5vw;
+    width: 1.5vw;
+    opacity: 0.3;
+    border: solid 1px #000000;
+    border-radius: 50%;
+}
+/* When the checkbox is checked, add a blue background */
+.checkbox_div input:checked ~ .checkmark1 {
+    background-color: #2196F3;
+}
+.checkbox_div input:checked ~ .checkmark2 {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+/* .checkbox_div:after {
+    content: "";
+    position: absolute;
+    display: none;
+} */
+
+/* Show the checkmark when checked */
+/* .checkbox_div input:checked ~ .checkmark1:after {
+    display: block;
+}
+
+.checkbox_div input:checked ~ .checkmark2:after {
+    display: block;
+} */
+
+/* Style the checkmark/indicator */
+/* .checkbox_div .checkmark1:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 20px;
+    border: solid white;
+}
+.checkbox_div .checkmark2:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 20px;
+    border: solid white;
+} */
+
 .btn-class{
     text-align: center;
-    margin-top: 35px;
+    margin-top: 2vw;
 }
 .btn{
-    height: 45px;
-    /* border-radius: 22.5px; */
+    height: 3vw;
+    border-radius: 22.5px;
     background-color: #20cdbb;
     min-width: 100%;
     color: #ffffff;
-    /* font-size: 16px;
-    font-weight: 800; */
+    font-size: 1.5vw;
+    font-weight: 800;
 }
 .last_line{
     text-align: center;
-    margin-top: 35px;
-    font-size: 14px;
-    margin-bottom: 98px;
+    margin-top: 3vw;
+    font-size: 1vw;
+    margin-bottom: 3vw;
 }
 #no_account{
     opacity: 0.3;
@@ -107,11 +187,11 @@ header{
 }
 footer{
     background-color: #1c2646;
-    height: 36px;
-    padding: 10px;
+    /* height: 36px; */
+    padding: 0.6vw;
 }
 #footer{
     opacity: 0.7;
-    font-size: 15px;
+    font-size: 1vw;
     color: #ffffff;
 }

@@ -3,6 +3,7 @@ body{
 }
 .page{
     background-color: #f7f8fa;
+    /* min-height:600px; */
     margin: 1vw; 
     /* overflow: auto;  */
     font-family: Nunito Sans,Arial, Helvetica, sans-serif;
@@ -10,6 +11,7 @@ body{
 }
 header{
     background-color: #183380;
+    /* min-height: 44px; */
     padding: 0.6vw;
     text-align: center;
 }
@@ -17,98 +19,88 @@ header{
     float: left;    
     padding-top: 0.2vw;
     size: 1vw;
-    width: 5vw;
+    width: 5vw; 
 }
 #login{
     font-size: 1.2vw;
     color: #ffffff;
-    margin-right: 2vw;
     font-weight: 500;
+    margin-right: 4vw
 }
 #divheading{
-    margin-top: 5vw;
-    margin-bottom: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-weight: 800;
     font-size: 2vw;
     color: #242a41;
     text-align: center;
-    font-weight: 800;
 }
-.square{
+.rectangle{
     background-color: #ffffff;
-    max-width: 30vw;
+    /* min-height: 340px; */
+    max-width: 60vw;
     margin: auto;
     border-radius: 4px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     padding: 3vw;
-    position: relative;
 }
-#label1{
+#div{
+    padding: 2vw;
+    text-align: center;
+    /* min-height: 20vw; */
+    max-width: 60vw;
+}
+.selectors{
+    border-radius: 20px;
+    border: solid 1px rgba(36, 42, 65, 0.2);
+    background-color: #ffffff;
+    /* padding: 9px 25px; */
+    padding: 0.7vw;
+    margin-right: 1.5vw; 
+    /* margin-bottom: 18px; */
+}
+.text{
     opacity: 0.3;
-    font-size: 1vw;
+    font-size: 1.1vw;
     font-weight: bold;
     color: #242a41;
-    text-align: left;
 }
-.login-form-field {
-    border: none;
-    outline: none;
-    color: #242a41;
-    margin-top: 0.5vw;
-    /* margin-bottom: 7px; */
-    width: 100%;
-}
-.fa-eye{
-    /* float: right; */
-    color: #242a41;
-    opacity: 0.15;
-    position: absolute;
-    top: 10.5vw;
-    right: 4vw;
-}
-.h-divider{
-    height: 1px;
-    opacity: 0.06;
-    background-color: #000000;
+.selectors:hover{
+    color: #51a8d1;
+    border-color:#51a8d1 ;
 }
 .btn-class{
     text-align: center;
-    margin-top: 3vw;
+    margin-top: 2vw;
 }   
 .btn{
     height: 3vw;
     border-radius: 22.5px;
     background-color: #20cdbb;
-    width: 100%;
+    min-width: 25vw;
     color: #ffffff;
     font-size: 1.4vw;
-    font-weight: 800;    
+    font-weight: 800;
 }
 .btn:hover {
     color: #ffffff;
     text-decoration: none;
 }
-#frgt_pswrd{
-    font-size: 1vw;
-    color: #51a8d1;
-    margin-top: 1vw;
-}
 .last_line{
     text-align: center;
-    margin-top: 3vw;
-    font-size: 1vw;
-    margin-bottom: 5vw;
+    margin-top: 2vw;
+    font-size: 14px;
+    margin-bottom: 3vw;
 }
-#no_account{
+#skip-step{
     opacity: 0.3;
     color: #242a41; 
-}
-#sign_up{
-    color: #51a8d1;
-    font-weight: bold;
+    font-size: 1vw;
+    font-weight: 600;
 }
 footer{
     background-color: #1c2646;
-    margin-top: 5vw;
+    /* height: 36px; */
     padding: 0.6vw;
 }
 #footer{
@@ -116,5 +108,3 @@ footer{
     font-size: 1vw;
     color: #ffffff;
 }
-
-
